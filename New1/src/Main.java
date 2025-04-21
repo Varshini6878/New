@@ -1,4 +1,4 @@
-// 📦 POJO Class
+
 class EmployeePOJO {
     private String name;
     private String department;
@@ -10,7 +10,7 @@ class EmployeePOJO {
         this.department = department;
     }
 
-    // Getters & Setters
+    
     public String getName() { return name; }
     public void setName(String name) { this.name = name; }
 
@@ -18,7 +18,6 @@ class EmployeePOJO {
     public void setDepartment(String department) { this.department = department; }
 }
 
-// 🪑 Resources Class - Furniture and Desktops
 class Resources {
     private int numberOfDesktops;
     private int numberOfChairs;
@@ -37,7 +36,6 @@ class Resources {
     }
 }
 
-// 👨‍💼 Model Class - Employee
 class Employee {
     private String name;
     private String department;
