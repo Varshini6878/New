@@ -50,7 +50,7 @@ class Employee {
     public void displayEmployeeDetails() {
         System.out.println("\nName: " + name);
         System.out.println("Department: " + department);
-        System.out.println("Desktops Available in Company: " + resources.getNumberOfDesktops());
-        System.out.println("Chairs Available in Company: " + resources.getNumberOfChairs());
+        System.out.println("Desktop Allotated: " + resources.getNumberOfDesktops());
+        System.out.println("Chair Allotated: " + resources.getNumberOfChairs());
     }
 }
