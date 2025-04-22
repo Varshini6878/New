@@ -13,7 +13,7 @@ public class Dcis {
         Employee emp5 = new Employee("Ethan", "Engineering", sharedResources);
 
         
-        System.out.println("----- Model Class Employee Details -----");
+        System.out.println("----- Employee Details -----");
         emp1.displayEmployeeDetails();
         emp2.displayEmployeeDetails();
         emp3.displayEmployeeDetails();
