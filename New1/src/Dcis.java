@@ -19,11 +19,5 @@ public class Dcis {
         emp3.displayEmployeeDetails();
         emp4.displayEmployeeDetails();
         emp5.displayEmployeeDetails();
-
-    
-        EmployeePOJO empPojo = new EmployeePOJO("Alice", "Engineering");
-        System.out.println("\n----- POJO Class Employee -----");
-        System.out.println("Name: " + empPojo.getName());
-        System.out.println("Department: " + empPojo.getDepartment());
     }
 }
